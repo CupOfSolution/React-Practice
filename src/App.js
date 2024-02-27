@@ -1,12 +1,12 @@
-import React, { Component } from 'react'
-import Navbar from './Component/Navbar/Navbar'
+import React from 'react'
+import Practice1 from './Component/UseState/Practice1'
 
-export default class App extends Component {
-  render() {
-    return (
-      <div>
-        <Navbar />
-      </div>
-    )
-  }
+const App = () => {
+  return (
+    <div>
+      <Practice1 />
+    </div>
+  )
 }
+
+export default App
