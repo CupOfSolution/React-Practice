@@ -1,10 +1,10 @@
 import React from 'react'
-import Practice2 from './Component/UseState/Practice2'
+import Practice3 from './Component/UseState/Practice3'
 
 const App = () => {
   return (
     <div>
-      <Practice2 />
+      <Practice3 />
     </div>
   )
 }
