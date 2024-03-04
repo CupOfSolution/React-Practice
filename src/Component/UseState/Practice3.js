@@ -4,7 +4,7 @@ import { Data } from './Data';
 
 const Practice3 = () => {
     const [text, setText] = useState(false)
-
+        
     const handleClick = (index) => {
         setText(prevState =>({
             ...prevState,

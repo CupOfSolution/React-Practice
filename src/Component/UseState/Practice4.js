@@ -9,7 +9,6 @@ const SimpleComponent = () => {
       ...prevState,
       [index]: !prevState[index]
     }));
-    console.log(buttonTexts)
     setClickedIndex(index);
   }
 
