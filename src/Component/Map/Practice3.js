@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import Button from '@mui/material/Button';
-import { Data } from './Data';
+import { Data } from '../UseState/Data';
 
 const Practice3 = () => {
     const [text, setText] = useState(false)
