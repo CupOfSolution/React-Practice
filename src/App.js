@@ -1,5 +1,5 @@
 import React from 'react'
-import Practice3 from './Component/UseState/Practice3'
+import Practice3 from './Component/Map/Practice3'
 
 const App = () => {
   return (
