@@ -3,8 +3,8 @@ import Button from '@mui/material/Button';
 import { Data } from './Data';
 
 const Practice3 = () => {
-    const [text, setText] = useState(false)
-        
+    const [text, setText] = useState({})
+
     const handleClick = (index) => {
         setText(prevState =>({
             ...prevState,
