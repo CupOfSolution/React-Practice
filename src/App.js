@@ -1,10 +1,10 @@
 import React from 'react'
-import Practice3 from './Component/Map/Practice3'
+import ArrayDestructuring from './Component/Array/ArrayDestructuring'
 
 const App = () => {
   return (
     <div>
-      <Practice3 />
+      <ArrayDestructuring />
     </div>
   )
 }
