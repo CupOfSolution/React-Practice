@@ -1,25 +1,12 @@
-import React, { useState } from 'react';
+import React from 'react'
+import Practice3 from './Component/Map/Practice3'
 
-function ClickableButton() {
-  const [clicked, setClicked] = useState(false);
-
-  const handleClick = () => {
-    setClicked(true);
-  };
-
+const App = () => {
   return (
-    <div className="flex flex-col items-center">
-      <button
-        className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
-        onClick={handleClick}
-      >
-        Click me
-      </button>
-      <div className={`mt-4 p-4 ${clicked ? 'bg-blue-200' : ''}`}>
-        Background color changes after click!
-      </div>
+    <div>
+      <Practice3 />
     </div>
-  );
+  )
 }
 
-export default ClickableButton;
+export default App
