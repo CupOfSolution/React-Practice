@@ -8,16 +8,18 @@ function ClickableButton() {
   };
 
   return (
-    <div className="flex flex-col items-center">
-      <button
-        className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
-        onClick={handleClick}
-      >
-        Click me
-      </button>
-      <div className={`mt-4 p-4 ${clicked ? 'bg-blue-200' : ''}`}>
+    <div>
+      <button onClick={handleClick}>Click me</button>
+      <div className={clicked ? 'clicked' : ''}>
         Background color changes after click!
       </div>
+      <style>
+        {`
+          .clicked {
+            background-color: lightblue;
+          }
+        `}
+      </style>
     </div>
   );
 }

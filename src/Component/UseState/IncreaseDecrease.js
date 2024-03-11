@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Button from '@mui/material/Button';
 
-const Practice1 = () => {
+const IncreaseDecrease = () => {
   const [value, setValue] = useState(0); 
 
   const handleIncrease = () => {
@@ -22,4 +22,4 @@ const Practice1 = () => {
   );
 }
 
-export default Practice1;
+export default IncreaseDecrease;
