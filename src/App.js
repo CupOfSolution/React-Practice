@@ -1,10 +1,10 @@
 import React from 'react'
-import Practice3 from './Component/Map/Practice3'
+import Practice1 from './Component/OnCLick/Practice1'
 
 const App = () => {
   return (
     <div>
-      <Practice3 />
+      <Practice1 />
     </div>
   )
 }
