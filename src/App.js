@@ -1,10 +1,10 @@
 import React from 'react'
-import ArrayDestructuring from './Component/Array/ArrayDestructuring'
+import ObjectDestructuring from './Component/Array_&_Object/ObjectDestructuring'
 
 const App = () => {
   return (
     <div>
-      <ArrayDestructuring />
+      <ObjectDestructuring />
     </div>
   )
 }
