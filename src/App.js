@@ -1,10 +1,10 @@
 import React from 'react'
-import SimpleComponent from './Component/Map/OpenCloseButton'
+import RenderList from './Component/Map/RenderList'
 
 const App = () => {
   return (
     <div>
-      <SimpleComponent />
+      <RenderList />
     </div>
   )
 }
