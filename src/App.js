@@ -1,5 +1,5 @@
 import React from 'react'
-import SimpleComponent from './Component/Map/Practice4'
+import SimpleComponent from './Component/Map/OpenCloseButton'
 
 const App = () => {
   return (

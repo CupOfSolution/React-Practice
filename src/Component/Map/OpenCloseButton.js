@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const SimpleComponent = () => {
+const OpenCloseButton = () => {
   const [buttonTexts, setButtonTexts] = useState({ 0: false, 1: false, 2: false });
   const [clickedIndex, setClickedIndex] = useState(null);
 
@@ -28,4 +28,4 @@ const SimpleComponent = () => {
   );
 }
 
-export default SimpleComponent;
+export default OpenCloseButton;
