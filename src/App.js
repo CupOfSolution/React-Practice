@@ -1,10 +1,10 @@
 import React from 'react'
-import RenderList from './Component/Map/RenderList'
+import TodoList from './Component/Map/TodoList'
 
 const App = () => {
   return (
     <div>
-      <RenderList />
+      <TodoList />
     </div>
   )
 }
