@@ -13,11 +13,17 @@ const SimpleComponent = () => {
   }
 
   return (
-    <div>
-      <button onClick={() => handleClick(0)}>{buttonTexts[0] ? 'Closed' : 'Open'}</button>
-      <button onClick={() => handleClick(1)}>{buttonTexts[1] ? 'Closed' : 'Open'}</button>
-      <button onClick={() => handleClick(2)}>{buttonTexts[2] ? 'Closed' : 'Open'}</button>
-      <p>Clicked index: {clickedIndex !== null ? clickedIndex : 'None clicked'}</p>
+    <div className="p-4"> {/* Apply padding to the whole component */}
+      <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onClick={() => handleClick(0)}>
+        {buttonTexts[0] ? 'Closed' : 'Open'}
+      </button>
+      <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mx-2" onClick={() => handleClick(1)}>
+        {buttonTexts[1] ? 'Closed' : 'Open'}
+      </button>
+      <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onClick={() => handleClick(2)}>
+        {buttonTexts[2] ? 'Closed' : 'Open'}
+      </button>
+      <p className="mt-4">Clicked index: {clickedIndex !== null ? clickedIndex : 'None clicked'}</p>
     </div>
   );
 }

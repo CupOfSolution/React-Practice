@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import Button from '@mui/material/Button';
 import { Data } from './Data';
 
-const Practice3 = () => {
+const ChangingButtonTitle = () => {
     const [text, setText] = useState({})
 
     const handleClick = (index) => {
@@ -23,4 +23,4 @@ const Practice3 = () => {
     );
 }
 
-export default Practice3;
+export default ChangingButtonTitle;

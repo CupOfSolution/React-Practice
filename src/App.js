@@ -1,10 +1,10 @@
 import React from 'react'
-import ArrayOfObject from './Component/Array_&_Object/ArrayOfObject'
+import SimpleComponent from './Component/Map/Practice4'
 
 const App = () => {
   return (
     <div>
-      <ArrayOfObject />
+      <SimpleComponent />
     </div>
   )
 }
