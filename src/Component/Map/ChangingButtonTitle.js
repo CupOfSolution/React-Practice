@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import Button from '@mui/material/Button';
 import { Data } from './Data';
 
@@ -6,9 +6,9 @@ const ChangingButtonTitle = () => {
     const [text, setText] = useState({})
 
     const handleClick = (index) => {
-        setText(prevState =>({
+        setText(prevState => ({
             ...prevState,
-            [index] : !prevState[index]
+            [index]: !prevState[index]
         }));
     }
 
